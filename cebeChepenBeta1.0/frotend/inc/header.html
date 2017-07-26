@@ -1,0 +1,29 @@
+<style>
+    span {
+        font-size: 20px;
+        font-weight: bold;
+    }
+</style>
+<i class="btn-up fa fa-arrow-circle-o-up hidden-xs"></i>
+<!--======================================== Navegación ========================================-->
+<header class="full-reset header">
+    <!--======================================== Logo(Nombre INS) ========================================-->
+    <div class="full-reset">
+        <img src="<?=$LinksRoute,'images/logo.png';?>" alt="Logo" height="45" width="45" style="margin-top: 3px;margin-left: 20px;">
+
+        <span class="hidden-lg hidden-md"> CEBE CHEPÉN</span>
+        <span class="hidden-xs hidden-sm"> CEBE CHEPÉN</span>
+    </div>
+    <!--======================================== Links de navegación ========================================-->
+    <nav class="full-reset navigation">
+        <ul class="full-reset list-unstyled">
+            <li><a href="<?=$LinksRoute,'./';?>">Home</a></li>
+            <li><a href="<?=$LinksRoute,'frotend/institucion.php';?>">Institución</a></li>
+            <li><a href="<?=$LinksRoute,'frotend/articulos.php';?>">Artículos</a></li>
+            <li><a href="<?=$LinksRoute,'frotend/videos.php';?>">Videos</a></li>
+            <li><a href="<?=$LinksRoute,'frotend/galeria.php';?>">Galería</a></li>
+            <li><a href="<?=$LinksRoute,'inicioSesion.php';?>" class="botonInicioSesion">Inicio Sesión</a></li>
+        </ul>
+    </nav><!--style="background-color: rgba(0,121,107,.97);"-->
+    <a href="#" class=" hidden-sm hidden-md hidden-lg pull-right button-menu-mobile show-close-menu-m"><i class="fa fa-ellipsis-v"></i></a>
+</header>
